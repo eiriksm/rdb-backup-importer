@@ -1,0 +1,23 @@
+{
+  "name": "s3-rethinkdb-importer",
+  "version": "0.0.0",
+  "description": "s3-rethinkdb-importer =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eiriksm/s3-rethinkdb-importer.git"
+  },
+  "author": "Eirik S. Morland <eirik@morland.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eiriksm/s3-rethinkdb-importer/issues"
+  },
+  "homepage": "https://github.com/eiriksm/s3-rethinkdb-importer",
+  "dependencies": {
+    "shelljs": "^0.2.6",
+    "commander": "^2.2.0"
+  }
+}
