@@ -1,23 +1,32 @@
 {
-  "name": "s3-rethinkdb-importer",
-  "version": "0.0.0",
-  "description": "s3-rethinkdb-importer =====================",
+  "name": "rdb-backup-importer",
+  "version": "0.0.1",
+  "description": "rdb-backup-importer",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
+  "bin": {
+    "rdb-backup-importer": "./bin/rdb-backup-importer"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eiriksm/s3-rethinkdb-importer.git"
+    "url": "git://github.com/eiriksm/rdb-backup-importer.git"
   },
   "author": "Eirik S. Morland <eirik@morland.no>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eiriksm/s3-rethinkdb-importer/issues"
+    "url": "https://github.com/eiriksm/rdb-backup-importer/issues"
   },
-  "homepage": "https://github.com/eiriksm/s3-rethinkdb-importer",
+  "homepage": "https://github.com/eiriksm/rdb-backup-importer",
   "dependencies": {
     "shelljs": "^0.2.6",
-    "commander": "^2.2.0"
+    "commander": "^2.2.0",
+    "colors": "^0.6.2"
+  },
+  "devDependencies": {
+    "should": "^3.2.0",
+    "mocha": "^1.18.2",
+    "istanbul": "^0.2.7"
   }
 }
