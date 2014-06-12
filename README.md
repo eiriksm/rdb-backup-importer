@@ -1,5 +1,6 @@
 rdb-backup-importer
 =====================
+[![Coverage Status](http://img.shields.io/coveralls/eiriksm/rdb-backup-importer.svg)](https://coveralls.io/r/eiriksm/rdb-backup-importer?branch=master)
 [![Code Climate](http://img.shields.io/codeclimate/github/eiriksm/rdb-backup-importer.svg)](https://codeclimate.com/github/eiriksm/rdb-backup-importer)
 [![Build Status](https://travis-ci.org/eiriksm/rdb-backup-importer.svg)](https://travis-ci.org/eiriksm/rdb-backup-importer)
 [![Dependency Status](https://david-dm.org/eiriksm/rdb-backup-importer.svg?theme=shields.io)](https://david-dm.org/eiriksm/rdb-backup-importer)
