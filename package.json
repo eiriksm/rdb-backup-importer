@@ -1,6 +1,6 @@
 {
   "name": "rdb-backup-importer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "rdb-backup-importer",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,8 @@
     "colors": "^0.6.2"
   },
   "devDependencies": {
-    "coveralls": "^2.10.0",
-    "istanbul": "^0.2.11",
+    "coveralls": "^2.11.1",
+    "istanbul": "^0.3.0",
     "mocha": "^1.20.1",
     "should": "^4.0.4"
   }

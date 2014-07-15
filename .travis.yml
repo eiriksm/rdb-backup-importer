@@ -1,8 +1,15 @@
 language: node_js
 node_js:
-  - "0.11"
-  - "0.10"
-
+- '0.11'
+- '0.10'
 script:
-  - make test-cov
-  - cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js > /dev/null 2>&1
+- make test-cov
+- cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js > /dev/null 2>&1
+deploy:
+  provider: npm
+  email: eirik@morland.no
+  api_key:
+    secure: TYwKQz/kBSYmXTYezJGOFz8dqun6HUgEtzLIPLgYzJ08PjdIUmOqRPEvghiqbMqJaYh9El2sDg/z1sJuEBAR2hWzIk5QuAvmSBesyyVKZhGjRMEq9xabLXmuFyLJteGAH3nNl+aATEIv5P0Vyx7j39SMIcDLR0+YTuYyvTyeA90=
+  on:
+    tags: true
+    repo: eiriksm/rdb-backup-importer
